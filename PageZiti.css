@@ -1,0 +1,43 @@
+@charset "utf-8";
+@font-face{font-family:'OyunQaganTig';src:url("LD-MONG-BT.ttf"); }
+/*@font-face{font-family:'AAA';src:url("Mwbat___.TTF"); }*/
+
+#str
+{
+	BORDER: #91c0e3 1px solid; 
+	width: 520px;
+	height: 580px;	
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #000000;	
+	float: left;
+	margin-bottom: 35px;
+	text-align: left;
+	margin-left: 3px;
+	margin-top: 15px;
+	overflow:auto ;
+   /*OyunQaganTig2   MenkQaganTig3*/
+
+	WRITING-MODE: tb-lr ; 
+	TEXT-ALIGN: justify; 
+	TEXT-JUSTIFY: inter-ideograph; 
+	-moz-writing-mode: vertical-lr ;
+	-webkit-writing-mode: vertical-lr ;
+	-o-writing-mode: vertical-lr ; 
+	-webkit-text-orientation: sideways-right ;
+	
+	
+	/*-webkit-transform: rotate(90deg); */  /*Safari 4+,Google Chrome 1+ */
+	/*-moz-transform: rotate(90deg); */   /*Firefox 3.5+*/ 
+}
+.wm3{
+	FONT-SIZE: 20px ; 
+	FONT-FAMILY: "OyunQaganTig", Serif; 
+	  -moz-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	-webkit-writing-mode: vertical-lr;
+	-o-writing-mode: vertical-lr;
+	-ms-writing-mode: tb-lr;
+	writing-mode: tb-lr; 
+	-webkit-text-orientation: sideways-right;
+	 //qq浏览器访问正常
+}
